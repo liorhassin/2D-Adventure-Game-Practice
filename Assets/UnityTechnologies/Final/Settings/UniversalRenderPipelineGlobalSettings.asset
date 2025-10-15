@@ -62,8 +62,8 @@ MonoBehaviour:
       - rid: 7719508898908471322
       - rid: 7719508898908471323
       - rid: 7719508898908471324
-      - rid: 2302032366645281014
-      - rid: 2302032366645281015
+      - rid: 5068035349568553035
+      - rid: 5068035349568553036
     m_RuntimeSettings:
       m_List: []
   m_AssetVersion: 8
@@ -98,7 +98,7 @@ MonoBehaviour:
     RefIds:
     - rid: -2
       type: {class: , ns: , asm: }
-    - rid: 2302032366645281014
+    - rid: 5068035349568553035
       type: {class: PostProcessData/ShaderResources, ns: UnityEngine.Rendering.Universal,
         asm: Unity.RenderPipelines.Universal.Runtime}
       data:
@@ -131,7 +131,7 @@ MonoBehaviour:
         finalPostPassPS: {fileID: 4800000, guid: c49e63ed1bbcb334780a3bd19dfed403,
           type: 3}
         m_ShaderResourcesVersion: 0
-    - rid: 2302032366645281015
+    - rid: 5068035349568553036
       type: {class: PostProcessData/TextureResources, ns: UnityEngine.Rendering.Universal,
         asm: Unity.RenderPipelines.Universal.Runtime}
       data:

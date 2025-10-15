@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: b36346fd66a2dff458158b131146843d
+  productGUID: 367b325d2714eef41a09ea81d8d00cb1
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -752,14 +752,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: 2D Adventure Game
+  metroPackageName: 2D-Adventure-Game-Practice
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: 2D Adventure Game
+  metroApplicationDescription: 2D-Adventure-Game-Practice
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0

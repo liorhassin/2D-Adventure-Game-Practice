@@ -41,6 +41,9 @@ TagManager:
   - name: Background
     uniqueID: 2766579207
     locked: 0
+  - name: AlwaysBehindPlayer
+    uniqueID: 4052901319
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
