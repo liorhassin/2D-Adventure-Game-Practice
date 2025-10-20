@@ -1,19 +1,26 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class UIHandler : MonoBehaviour
 {
-    public float currentHealth = 0.5f;
-    void Start()
+    private VisualElement m_healthBar;
+    public static UIHandler instance { get; private set; }
+
+    private void Awake()
     {
-        UIDocument uiDocument = GetComponent<UIDocument>();
-        VisualElement healthBar = uiDocument.rootVisualElement.Q<VisualElement>("HealthBar");
-        healthBar.style.width = Length.Percent(currentHealth * 100.0f);
+        instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Start()
     {
-        
+        UIDocument uiDocument = GetComponent<UIDocument>();
+        m_healthBar = uiDocument.rootVisualElement.Q<VisualElement>("HealthBar");
+        SetHealthBar(1.0f);
+    }
+
+    public void SetHealthBar(float percentage)
+    {
+        m_healthBar.style.width = Length.Percent(percentage * 100);
     }
 }

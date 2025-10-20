@@ -7,7 +7,7 @@ public class HealthCollectible : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController controller = collision.GetComponent<PlayerController>();
-        if (controller && controller.health < controller.maxHealth)
+        if (controller && controller.m_health < controller.m_maxHealth)
         {
             controller.ChangeHealth(healthIncrease);
             Destroy(gameObject);
